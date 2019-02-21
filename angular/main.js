@@ -91,9 +91,9 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 var Globals = /** @class */ (function () {
     function Globals() {
-        /* ipaddress: string = '192.168.16.120'; */
+        this.ipaddress = '13.59.69.41';
         /* ipaddress: string = 'jtranet.herokuapp.com'; */
-        this.ipaddress = 'localhost';
+        /*  ipaddress: string = 'localhost'; */
     }
     Globals = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])()

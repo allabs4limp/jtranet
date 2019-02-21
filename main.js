@@ -47,4 +47,4 @@ app.use((req, res, next) => {
   res.sendFile(path.join(__dirname + '/../dist/index.html')); // load the single view file (angular will handle the page changes on the front-end)
 }); */
 
-app.listen(process.env.PORT || 8080, () => console.log('Server started at port : 3000'));
+app.listen(process.env.PORT || 8081, () => console.log('Server started at port : 3000'));
